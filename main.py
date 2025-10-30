@@ -2,8 +2,8 @@ import requests
 import schedule
 import time
 
-TOKEN = "COLOQUE_SEU_TOKEN_AQUI"
-CHAT_ID = "COLOQUE_SEU_CHAT_ID_AQUI"
+TOKEN = "1234567890:ABCdefGhIJkLmNoPqRstuVWxyz"  # seu token do BotFather
+CHAT_ID = "987654321"  # seu chat_id do Telegram"
 
 def enviar_palpite():
     mensagem = "💡 Palpite do dia: Vitória do time da casa!"
